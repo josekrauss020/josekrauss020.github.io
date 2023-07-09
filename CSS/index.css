@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;/*tanto o display como o justify-content foram utilizados para alinhar o conteudo do header*/
+    background-color: #7C5E99;
+    border-bottom: 10px solid black;
+    padding: 10px 20px 10px 20px;
+}
+
+nav{
+    
+    text-align: right;
+      
+}
+
+a {
+    display:inline-flex;
+    align-items: center;/*utilizado para alinhar o quadrado vermelho com os textos dos botões*/
+    color:white;
+    font-size: 20px;
+    font-family: "Fira code", Arial, Helvetica, sans-serif; /*as fontes depois do fira code vão ser a substituição dele em caso corrompa*/
+    font-weight: 500; /* coloca o tamanho da letra dos primeiros botões do header*/
+    text-decoration: none; /* tira o sublinhado e todo tipo de decoração */
+    margin-right: 30px;
+
+}
+a::before /*isto é um pseudo-elemento*/
+{
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+   
+}
+
+
+/*temos a tag button:
+button{}
+
+e o id button:
+#button{}
+*/
+#button5 {
+    /*por padrão o display sempre fica "inline", isso não deixa utilizar widht e height*/
+    display: inline-block; /*esta linha permite que a gente defina altura e largura SUPER IMPORTANTE*/
+    background-color: #F25A70;
+    height: 60px;
+    line-height: 60px;
+    /* height e line height tem que andar juntos e sempre do mesmo valor*/
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px black;
+    /*box-shadow: (eixo x) (eixo y) (blur) (cor);*/
+    margin-right: 0px;
+       
+    
+}
+#button5:hover::after{
+    content:"Obrigado! Tenha um bom dia";
+    display: flex;  
+    top: 1000px;
+    left: 1000px;
+    right: 1000px;
+    bottom: 1000px;
+    color: black;
+   background-color: blue;
+    padding: 10px;
+
+}

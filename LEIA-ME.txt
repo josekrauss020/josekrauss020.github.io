@@ -1,0 +1,18 @@
+Links interesantes:
+
+	https://meyerweb.com/eric/tools/css/reset/  --> é um arquivo que reseta(tira) todos os 			comportamentos padrão do navegador.
+	https://fonts.google.com/	--> página com varias fontes(tipos de letra)
+
+	figma.com	---> Ferramenta de design de sites
+
+	https://developer.mozilla.org/		--> site de documentação para desenvolvedores
+
+	https://validator.w3.org/	----> site para "validar" o HTML 
+
+	https://css-tricks.com/		----> site de documentação CSS
+
+Truques:
+	selecionar o <a> e apertar ctrl+D para modificar mais de uma linha
+	selecionar uma palavra e apertar ctrl+f2
+	Ctrl+R - abre o executar
+
