@@ -56,18 +56,12 @@ e o id button:
     box-shadow: 5px 5px 0px black;
     /*box-shadow: (eixo x) (eixo y) (blur) (cor);*/
     margin-right: 0px;
+    transition: ease-in-out 800ms;
        
     
 }
-#button5:hover::after{
-    content:"Obrigado! Tenha um bom dia";
-    display: flex;  
-    top: 1000px;
-    left: 1000px;
-    right: 1000px;
-    bottom: 1000px;
-    color: black;
-   background-color: blue;
-    padding: 10px;
+#button5:hover{
+    background-color: blue;
+    transform: scale(1.1);
 
 }
