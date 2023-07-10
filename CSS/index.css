@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(139, 139, 139);
 }
 
 header{
@@ -64,4 +64,12 @@ e o id button:
     background-color: blue;
     transform: scale(1.1);
 
+}
+h1{
+    background-color: rgb(213, 129, 72);
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-flex;
+    padding: 73.6px 176px;
+    margin-top: 116px;
+    margin-left: 91px;
 }
