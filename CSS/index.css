@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(139, 139, 139);
+    background-color: #262730;
 }
 
 header{
     display: flex;
     justify-content: space-between;/*tanto o display como o justify-content foram utilizados para alinhar o conteudo do header*/
-    background-color: #7C5E99;
+    background-color: #9C528B;
     border-bottom: 10px solid black;
     padding: 10px 20px 10px 20px;
 }
@@ -47,7 +47,7 @@ e o id button:
 #button5 {
     /*por padrão o display sempre fica "inline", isso não deixa utilizar widht e height*/
     display: inline-block; /*esta linha permite que a gente defina altura e largura SUPER IMPORTANTE*/
-    background-color: #F25A70;
+    background-color: #77BA99;
     height: 60px;
     line-height: 60px;
     /* height e line height tem que andar juntos e sempre do mesmo valor*/
@@ -66,7 +66,7 @@ e o id button:
 
 }
 h1{
-    background-color: rgb(213, 129, 72);
+    background-color: #D7C0D0;
     font-family: 'Ubuntu', sans-serif;
     display: inline-flex;
     padding: 73.6px 176px;
