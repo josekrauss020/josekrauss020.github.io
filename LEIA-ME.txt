@@ -15,4 +15,7 @@ Truques:
 	selecionar o <a> e apertar ctrl+D para modificar mais de uma linha
 	selecionar uma palavra e apertar ctrl+f2
 	Ctrl+R - abre o executar
+	
+Anotações:
+	Apenas podemos usar 1 "id" por página, em muitos casos é melhor usar o "class"
 

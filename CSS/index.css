@@ -38,31 +38,4 @@ a::before /*isto é um pseudo-elemento*/
 }
 
 
-/*temos a tag button:
-button{}
-
-e o id button:
-#button{}
-*/
-#button5 {
-    /*por padrão o display sempre fica "inline", isso não deixa utilizar widht e height*/
-    display: inline-block; /*esta linha permite que a gente defina altura e largura SUPER IMPORTANTE*/
-    background-color: #77BA99;
-    height: 60px;
-    line-height: 60px;
-    /* height e line height tem que andar juntos e sempre do mesmo valor*/
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0px black;
-    /*box-shadow: (eixo x) (eixo y) (blur) (cor);*/
-    margin-right: 0px;
-    transition: ease-in-out 800ms;
-       
-    
-}
-#button5:hover{
-    background-color:#3a845f;
-    transform: scale(1.1);
-
-}
 
