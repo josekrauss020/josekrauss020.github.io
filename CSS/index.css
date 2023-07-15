@@ -65,22 +65,4 @@ e o id button:
     transform: scale(1.1);
 
 }
-#cartel{
-    color: #9C528B; 
-    font-size:xx-large;   
-    background-color: #D7C0D0;
-    font-family: 'Ubuntu', sans-serif;
-    display: inline-flex;
-    padding: 73.6px 176px;
-    margin-top: 116px;
-    margin-left: 91px;
-    box-shadow: 12px 12px 0px #77BA99;      
-    text-shadow: 4px 4px 0px #000;
-}
-#logo{
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 15px;
-    margin-top: 12px;
-    vertical-align: middle;
-}
+
