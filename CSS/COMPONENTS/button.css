@@ -29,3 +29,12 @@ e o id button:
     transform: scale(1.1);
 
 }
+
+.TitleButton{
+    margin-top: 38px;
+}
+
+#buttonleft{
+    margin-left: 181px;
+    margin-right: 112px;
+}
