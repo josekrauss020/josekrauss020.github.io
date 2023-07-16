@@ -2,13 +2,7 @@ body{
     background-color: #262730;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;/*tanto o display como o justify-content foram utilizados para alinhar o conteudo do header*/
-    background-color: #9C528B;
-    border-bottom: 10px solid black;
-    padding: 10px 20px 10px 20px;
-}
+
 
 nav{
     

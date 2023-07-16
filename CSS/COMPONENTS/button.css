@@ -17,6 +17,10 @@ e o id button:
     /*box-shadow: (eixo x) (eixo y) (blur) (cor);*/
     margin-right: 0px;
     transition: ease-in-out 800ms;
+    color: #fff;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 20px;
        
     
 }

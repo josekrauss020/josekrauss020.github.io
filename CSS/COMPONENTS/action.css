@@ -1,0 +1,20 @@
+.action {
+    display:inline-flex;
+    align-items: center;/*utilizado para alinhar o quadrado vermelho com os textos dos botões*/
+    color:white;
+    font-size: 20px;
+    font-family: inherit; /*inherit -> vai herdar a fonte do body*/
+    font-weight: 500; /* coloca o tamanho da letra dos primeiros botões do header*/
+    text-decoration: none; /* tira o sublinhado e todo tipo de decoração */
+    margin-right: 30px;
+
+}
+.action::before /*isto é um pseudo-elemento*/
+{
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+   
+}
