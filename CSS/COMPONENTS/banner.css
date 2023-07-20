@@ -1,0 +1,6 @@
+.banner{
+    background-image: url(../../assets/img/imagem\ de\ fundo.jpg);
+    height: 800px;
+    border-bottom: 10px solid black;
+    /*             espessura / solido / cor da borda */
+}
