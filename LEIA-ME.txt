@@ -10,6 +10,7 @@ Links interesantes:
 	https://validator.w3.org/	----> site para "validar" o HTML 
 
 	https://css-tricks.com/		----> site de documentação CSS
+	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 Truques:
 	selecionar o <a> e apertar ctrl+D para modificar mais de uma linha
