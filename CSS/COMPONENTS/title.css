@@ -5,6 +5,14 @@
     text-shadow: 4px 4px 0px #000;
     
 }
+.title.-second{
+    background-color: #9C528B;
+    color: white;
+    text-align: center;
+    text-shadow: none;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 50px;
+}
 .subtitle {
     color: #9C528B;
     font-family: 'Ubuntu', sans-serif;
