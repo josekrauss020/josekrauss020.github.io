@@ -20,3 +20,16 @@ Truques:
 Anotações:
 	Apenas podemos usar 1 "id" por página, em muitos casos é melhor usar o "class"
 
+	Quando temos um class="main-title" estamos falando de um componente.
+	Quando temos um class="title" estamos falando de um elemento.
+
+	o que é RSCSS?
+
+ 	progress::-webkit-progress-value (o "::" indica um pseudo-elemento)
+
+
+
+	função: 
+	dl
+	dd
+	article

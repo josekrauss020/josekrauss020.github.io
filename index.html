@@ -13,13 +13,15 @@
     <!-- o arquivo CSS que utilizamos no link serve para agilizar as mudanças de confuguração de pagina, se torna mais facil
     mudar as coisas por que apenas temos que mudar em um único lugar-->
     <link rel="stylesheet" href="CSS/COMPONENTS/section.css">
+    <link rel="stylesheet" href="CSS/COMPONENTS/progress.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/banner.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/header.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/action.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/logo.css">
-    <link rel="stylesheet" href="CSS/COMPONENTS/title.css">
+    <link rel="stylesheet" href="CSS/COMPONENTS/main-title.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/box.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/button.css">
+    <link rel="stylesheet" href="CSS/COMPONENTS/skill-tec.css">
 
     
 </head>
@@ -41,7 +43,7 @@
     <section class="banner">
        <div class="wrapper">
             <div class="box">
-                <h1 class="title">Christopher Krauss</h1>
+                <h1 class="main-title">Christopher Krauss</h1>
                 <h2 class="subtitle">Front-End developer</h2>
             </div>
             <div class="navigation">
@@ -51,7 +53,16 @@
         </div> 
     </section>
     <section class="section">
-        <h1 class="title -second">Skills</h1>
+        <h2 class="main-title -second">Skills</h2>
+        <article class="skill-tec"><!-- description list --> <!-- (dt) description title  --> <!-- (dd) define description -->
+        
+            <img class="icon" src="assets/img/ico_html5.png" all="icone HTML5">            
+            <div class="right">
+                <h3 class="title">HTML</h3>
+                <progress class="bar" max="100" value="70">70 %</progress>
+            </div>
+            
+        </article>        
     </section>
 </body>
 </html>
