@@ -33,3 +33,4 @@ Anotações:
 	dl
 	dd
 	article
+	align-items (css-tricks)

@@ -1,4 +1,8 @@
 .section{
     background-color: #9C528B;
     border-bottom: 10px solid black;
+    
+}
+.section .main-title{
+    margin-bottom: 60px;
 }

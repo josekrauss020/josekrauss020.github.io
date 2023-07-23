@@ -1,15 +1,23 @@
 .skill-tec{
+    display: flex;
+    align-items: center;
     font-family: 'Fira Code', monospace;
     font-size: 30px;
     color: #fff;
-    display: flex;
+    
 
 }
 .skill-tec .icon{
     margin-right: 25px;
+    width: 90px;
 }
 .skill-tec .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+.skill-tec .title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
