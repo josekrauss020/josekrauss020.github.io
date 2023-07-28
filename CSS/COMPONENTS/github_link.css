@@ -1,0 +1,20 @@
+.github_link{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+
+
+}
+.github_button{
+    display: flex;
+    box-sizing: content-box;
+    border: 5px solid #77BA99;
+    height: 166px;
+    width: 100px;
+    padding: 0px;
+}
+.github_image{
+    display: block;
+    
+
+}

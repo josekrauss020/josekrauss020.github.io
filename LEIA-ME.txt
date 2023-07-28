@@ -11,6 +11,7 @@ Links interesantes:
 
 	https://css-tricks.com/		----> site de documentação CSS
 	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	https://www.w3schools.com/	----> site de programação
 
 Truques:
 	selecionar o <a> e apertar ctrl+D para modificar mais de uma linha
