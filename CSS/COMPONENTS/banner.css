@@ -8,12 +8,12 @@
     
 }
 
-.banner .wrapper{
+.banner .wrapper.-banner{
     display: flex;
     flex-direction: column;
     width: 700px;
 }
-.banner .box{
+.banner .box.-banner{
     margin-bottom: 38px;
 }
 .banner .navigation{

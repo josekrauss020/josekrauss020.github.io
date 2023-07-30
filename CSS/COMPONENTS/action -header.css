@@ -1,4 +1,4 @@
-.action {
+.action.-header {
     display:inline-flex;
     align-items: center;/*utilizado para alinhar o quadrado vermelho com os textos dos botões*/
     color:white;
