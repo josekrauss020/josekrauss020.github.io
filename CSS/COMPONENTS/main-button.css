@@ -4,7 +4,7 @@ button{}
 e o id button:
 #button{}
 */
-.button {
+.main-button {
     /*por padrão o display sempre fica "inline", isso não deixa utilizar widht e height*/
     display: inline-block; /*esta linha permite que a gente defina altura e largura SUPER IMPORTANTE*/
     background-color: #77BA99;
@@ -24,7 +24,7 @@ e o id button:
        
     
 }
-.button:hover{
+.main-button:hover{
     background-color:#3a845f;
     transform: scale(1.1);
 

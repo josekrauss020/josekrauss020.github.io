@@ -9,7 +9,7 @@
     margin-right: 30px;
 
 }
-.action::before /*isto é um pseudo-elemento*/
+.main-action::before /*isto é um pseudo-elemento*/
 {
     content: "";
     background-color: #F25A70;
