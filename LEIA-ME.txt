@@ -28,6 +28,8 @@ Anotações:
 
  	progress::-webkit-progress-value (o "::" indica um pseudo-elemento)
 
+	apertando shift+seta_pra_cima movemos a linha de código pra cima
+
 
 
 	função: 
