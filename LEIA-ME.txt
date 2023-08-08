@@ -37,3 +37,24 @@ Anotações:
 	dd
 	article
 	align-items (css-tricks)
+	box-sizing
+	z-index
+	position
+
+Se eu tiver uma div com um conteudo dentro e tiver as seguintes propiedades na div:
+	display:flex;
+	flex-direction:row;
+->aqui para centralizar no eixo vertical vamos a usar...
+	align-items:center;
+
+Mas se tiver-mos:
+	display:flex;
+	flex-direction:column;
+->vamos ter que usar para centralizar no eixo vertical:
+	justify-items:center;
+
+****	SE QUISERMOS CENTRALIZAR NA HORIZONTAL, UTILIZAR O INVERSO ****
+	
+
+
+
