@@ -1,0 +1,18 @@
+.main-caroucel{
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.main-caroucel .button-arrow{
+    position: absolute;
+    bottom: 70px;   
+}
+
+.main-caroucel .button-arrow.-left{
+    left: 15px;
+}
+
+.main-caroucel .button-arrow.-right{
+    right: 15px;
+}

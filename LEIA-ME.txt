@@ -40,6 +40,9 @@ Anotações:
 	box-sizing
 	z-index
 	position
+	display
+	figure
+	article
 
 Se eu tiver uma div com um conteudo dentro e tiver as seguintes propiedades na div:
 	display:flex;

@@ -19,7 +19,7 @@
 .node-card .title{
     font-family: 'Press Start 2P', cursive;
     font-size: 25px;
-    color: #F25A70;
+    color: #262730;
     font-weight: 400;
     margin-bottom: 40px;
 }
@@ -31,4 +31,11 @@
     background-color: #CEB02A;
     padding-left: 20px;
     padding-right: 20px;
+}
+.node-card.-clean .logo{
+    padding: 0;
+    border: 0;
+}
+.node-card.-first .logo{
+    background-color: #f25a70;
 }
