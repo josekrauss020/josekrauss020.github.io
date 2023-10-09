@@ -1,4 +1,6 @@
 .main-caroucel{
+    display: flex;
+    justify-content: space-around;
     position: relative;
     padding-left: 100px;
     padding-right: 100px;
