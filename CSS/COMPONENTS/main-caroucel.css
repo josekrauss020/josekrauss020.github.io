@@ -38,5 +38,5 @@
 .main-caroucel .elements{
     display: flex;
     justify-content: space-between;
-    transform: translateX(30%);
+    transition: transform 100ms linear;
 }
