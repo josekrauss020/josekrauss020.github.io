@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="CSS/COMPONENTS/main-banner.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/main-header.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/node-card.css">
+    <link rel="stylesheet" href="CSS/COMPONENTS/main-input.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/main-action.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/logo.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/main-text.css">
@@ -30,6 +31,7 @@
     <link rel="stylesheet" href="CSS/COMPONENTS/skill-tec.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/main-label.css">
     <link rel="stylesheet" href="CSS/COMPONENTS/main-footer.css">
+    <link rel="stylesheet" href="CSS/COMPONENTS/main-form.css">
 
     
 </head>
@@ -175,16 +177,17 @@
         </section>     
     </section>
 
-    <form action="">
+    <form action="" class="main-form">
         <label class="main-label" for="name" >Nome</label>
-        <input id="name" type="text">
-        <label class="main-label" for="email" >Email</label>
-        <input id="email"  type="email">
-       
-        <label class="main-label" for="message"></label>
-        <textarea name="" id="message"></textarea>
+        <input class="main-input" id="name" type="text">
 
-        <input type="submit" value="Enviar">
+        <label class="main-label" for="email" >Email</label>
+        <input class="main-input" id="email"  type="email">
+       
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input -message" name="" id="message"></textarea>
+
+        <button type="submit" class="main-button -full">Enviar</button>
         <button>Limpar</button>
     </form>
 
